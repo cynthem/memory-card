@@ -8,6 +8,7 @@ const Footer = () => {
             <a 
             className="footer-link" 
             href="https://github.com/doozles411"
+            target="_blank"
             rel="noopener noreferrer"
             >
                 <img
