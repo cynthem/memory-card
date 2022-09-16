@@ -8,6 +8,15 @@ body {
   background-size: cover;
 }
 
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* HEADER */
+
 .header {
   width: 100%;
   background-color: rgb(6, 33, 42);
@@ -37,4 +46,15 @@ body {
   margin: 0 auto;
   padding-top: 15px;
   width: 500px;
+}
+
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+}
+
+.footer-text {
+  color: white;
 }

@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <p className="footer-text">Made by CMP</p>
-            <a href="https://github.com/doozles411">
+            <a classname="footer-link" href="https://github.com/doozles411">
                 <img
                 className="footer-img"
                 alt="Golden snitch"
