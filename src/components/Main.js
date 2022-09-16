@@ -1,10 +1,12 @@
 import React from 'react';
-import Scores from './Scores'
+import Scores from './Scores';
+import Cards from './Cards';
 
 const Main = () => {
     return (
         <div className="main">
             <Scores />
+            <Cards />
         </div>
     )
 }
