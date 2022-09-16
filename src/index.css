@@ -12,6 +12,7 @@ body {
   width: 100%;
   background-color: rgb(6, 33, 42);
   height: 160px;
+  box-shadow: 5px 5px 10px black;
 }
 
 .title-img {
