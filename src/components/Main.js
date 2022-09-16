@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Scores from './Scores';
 import Cards from './Cards';
 
 const Main = () => {
+    const [characters, setCharacters] = useState([]);
+
     return (
         <div className="main">
             <Scores />
-            <Cards />
+            <Cards characters={characters} />
         </div>
     )
 }

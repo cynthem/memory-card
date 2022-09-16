@@ -25,8 +25,8 @@ body {
 
 .main {
   overflow-y: scroll;
-  color: white;
   margin: 20px;
+  position: relative;
 }
 
 
@@ -69,8 +69,10 @@ body {
 /* SCORES */
 
 .scores {
+  position: fixed;
   font-family: 'American Typewriter', serif;
   font-size: 1.15rem;
+  color: white;
   width: 156px;
   height: 74px;
   background-color: rgb(167, 0, 0);
@@ -92,6 +94,14 @@ body {
 .best-top {
   width: 127px;
   text-align: right;
+}
+
+
+/* CARDS */
+
+.card-img {
+  display: block;
+  width: 200px;
 }
 
 
