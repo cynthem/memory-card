@@ -84,3 +84,7 @@ body {
 .footer-img {
   width: 30px;
 }
+
+.footer-img:hover {
+  transform: scale(1.1);
+}
