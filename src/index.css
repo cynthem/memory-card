@@ -26,6 +26,7 @@ body {
 .main {
   overflow-y: scroll;
   color: white;
+  margin: 20px;
 }
 
 
@@ -66,6 +67,32 @@ body {
 
 
 /* SCORES */
+
+.scores {
+  font-family: 'American Typewriter', serif;
+  font-size: 1.15rem;
+  width: 156px;
+  height: 74px;
+  background-color: rgb(167, 0, 0);
+  border-radius: 10px;
+  padding: 5px 12px 0 10px;
+}
+
+.current-score,
+.best-score {
+  display: flex;
+  gap: 6px;
+}
+
+.current-score > p,
+.best-score > p {
+  margin: 6px 0;
+}
+
+.best-top {
+  width: 127px;
+  text-align: right;
+}
 
 
 
