@@ -16,8 +16,25 @@ body {
   display: flex;
 }
 
+.broom-left,
+.broom-right {
+  width: 400px;
+  height: 100px;
+  align-self: flex-end;
+  padding-bottom: 20px;
+}
+
+.broom-left {
+  padding-left: 10px;
+}
+
+.broom-right {
+  padding-right: 10px;
+}
+
 .title-img {
   display: block;
   margin: 0 auto;
   padding-top: 15px;
+  width: 500px;
 }
