@@ -8,7 +8,7 @@ const Main = () => {
     return (
         <div className="main">
             <Scores />
-            <Cards characters={characters} />
+            <Cards /*characters={characters}*/ />
         </div>
     )
 }
