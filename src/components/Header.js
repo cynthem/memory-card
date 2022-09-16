@@ -3,7 +3,7 @@ import title from '../assets/title.png';
 
 const Header = () => {
     return (
-        <div className='header'>
+        <div className="header">
             <img
             className="title-img"
             alt="Confundo"
