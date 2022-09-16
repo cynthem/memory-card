@@ -13,7 +13,9 @@ const Cards = (/*{ characters }*/) => {
     )*/
 
     return (
-        <Card />
+        <div className="cards-grid">
+            <Card />
+        </div>
     )
 }
 
