@@ -1,14 +1,17 @@
 import React from 'react';
+import goldenSnitch from '../assets/goldenSnitch.png';
 
 const Footer = () => {
     return (
         <div className="footer">
             <p className="footer-text">Made by CMP</p>
-            <img
-            className="footer-img"
-            alt="Broom"
-            src={broomRight}
-            />
+            <a href="https://github.com/doozles411">
+                <img
+                className="footer-img"
+                alt="Golden snitch"
+                src={goldenSnitch}
+                />
+            </a>
         </div>
     )
 }
