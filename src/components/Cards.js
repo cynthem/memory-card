@@ -84,7 +84,13 @@ const Cards = (props) => {
 
     return (
         <div className="cards-grid">
-            <Card />
+            {cards.map((card) => (
+                <Card 
+                    key={card.id}
+                    card={card}
+                    handleGame={handleGame}
+                />
+            ))}
         </div>
     )
 }
