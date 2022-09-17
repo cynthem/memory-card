@@ -19,51 +19,51 @@ const Cards = (props) => {
     let characters = [
         {
             src: dolores,
-            id: 'dolores'
+            id: 'Dolores'
         },
         {
             src: hagrid,
-            id: 'hagrid'
+            id: 'Hagrid'
         },
         {
             src: dumbledore,
-            id: 'dumbledore'
+            id: 'Dumbledore'
         },
         {
             src: ginny,
-            id: 'ginny'
+            id: 'Ginny'
         },
         {
             src: harry,
-            id: 'harry'
+            id: 'Harry'
         },
         {
             src: hermione,
-            id: 'hermione'
+            id: 'Hermione'
         },
         {
             src: luna,
-            id: 'luna'
+            id: 'Luna'
         },
         {
             src: malfoy,
-            id: 'malfoy'
+            id: 'Malfoy'
         },
         {
             src: mcgonagall,
-            id: 'mcgonagall'
+            id: 'McGonagall'
         },
         {
             src: ron,
-            id: 'ron'
+            id: 'Ron'
         },
         {
             src: sirius,
-            id: 'sirius'
+            id: 'Sirius'
         }, 
         {
             src: voldemort,
-            id: 'voldemort'
+            id: 'Voldemort'
         }
     ];
 
