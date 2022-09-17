@@ -114,6 +114,7 @@ body {
 .card-img {
   display: block;
   width: 180px;
+  cursor: pointer;
 }
 
 
