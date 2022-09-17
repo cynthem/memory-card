@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
-import dolores from '../assets/dolores';
-import hagrid from '../assets/hagrid';
-import dumbledore from '../assets/dumbledore';
-import ginny from '../assets/ginny';
-import harry from '../assets/harry';
-import hermione from '../assets/hermione';
-import luna from '../assets/luna';
-import malfoy from '../assets/malfoy';
-import mcgonagall from '../assets/mcgonagall';
-import ron from '../assets/ron';
-import sirius from '../assets/sirius';
-import voldemort from '../assets/voldemort';
+import dolores from '../assets/dolores.jpg';
+import hagrid from '../assets/hagrid.jpg';
+import dumbledore from '../assets/dumbledore.jpg';
+import ginny from '../assets/ginny.jpg';
+import harry from '../assets/harry.jpg';
+import hermione from '../assets/hermione.png';
+import luna from '../assets/luna.jpg';
+import malfoy from '../assets/malfoy.jpg';
+import mcgonagall from '../assets/mcgonagall.jpg';
+import ron from '../assets/ron.jpg';
+import sirius from '../assets/sirius.jpg';
+import voldemort from '../assets/voldemort.jpg';
 
 const Cards = (props) => {
     const { score, bestScore, handleGame } = props;
