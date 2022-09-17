@@ -23,14 +23,6 @@ body {
   grid-template-rows: 130px auto 40px;
 }
 
-.main {
-  overflow-y: scroll;
-  margin: 0 20px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
 
 /* HEADER */
 
@@ -68,7 +60,15 @@ body {
 }
 
 
-/* SCORES */
+/* MAIN */
+
+.main {
+  overflow-y: scroll;
+  margin: 0 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 
 .scores {
   position: fixed;
@@ -99,9 +99,6 @@ body {
   width: 127px;
   text-align: right;
 }
-
-
-/* CARDS */
 
 .cards-grid {
   display: grid;
@@ -144,4 +141,17 @@ body {
 
 .footer-img:hover {
   transform: scale(1.1);
+}
+
+
+
+@media (max-width: 700px) {
+  
+  .cards-grid {
+    grid-template: repeat(4, 1fr) / repeat(3, 220px);
+  }
+
+  .scores {
+    bottom: 50px;
+  }
 }
