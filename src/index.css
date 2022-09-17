@@ -145,13 +145,29 @@ body {
 
 
 
-@media (max-width: 700px) {
-  
-  .cards-grid {
-    grid-template: repeat(4, 1fr) / repeat(3, 220px);
+@media only screen and (max-width: 700px) {
+
+  .title-img {
+    width: 250px;
+    height: 55px;
+  }
+
+  .broom-left,
+  .broom-right {
+    width: 0px;
+    height: 0px;
+    padding-bottom: 0px;
   }
 
   .scores {
     bottom: 50px;
+  }
+  
+  .cards-grid {
+    grid-template: repeat(4, 1fr) / repeat(3, 100px);
+  }
+
+  .card-img {
+    width: 90px;
   }
 }
