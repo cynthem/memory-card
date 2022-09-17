@@ -1,13 +1,18 @@
 import React from 'react';
-import dumbledore from '../assets/dumbledore.jpg';
 
-const Card = () => {
+const Card = (props) => {
+    const {
+        card: { src, id },
+        handleGame
+    } = props;
+
     return (
         <div className="card">
             <img
             className="card-img"
-            alt="Dumbledore"
-            src={dumbledore}
+            alt={id}
+            src={src}
+            onClick={handleGame}
             />
         </div>
     )
