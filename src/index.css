@@ -145,7 +145,7 @@ body {
 
 
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
 
   .title-img {
     width: 250px;
@@ -154,9 +154,7 @@ body {
 
   .broom-left,
   .broom-right {
-    width: 0px;
-    height: 0px;
-    padding-bottom: 0px;
+    display: none;
   }
 
   .scores {
