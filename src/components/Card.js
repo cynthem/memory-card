@@ -12,7 +12,7 @@ const Card = (props) => {
             className="card-img"
             alt={id}
             src={src}
-            onClick={handleGame}
+            onClick={handleGame.bind(this, id)}
             />
         </div>
     )
