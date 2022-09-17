@@ -147,6 +147,10 @@ body {
 
 @media screen and (max-width: 500px) {
 
+  .App {
+    grid-template-rows: 70px auto 40px;
+  }
+
   .header {
     height: 70px;
   }
@@ -164,9 +168,9 @@ body {
   .scores {
     top: auto;
     bottom: 50px;
-    font-size: 0.7rem;
-    width: 80px;
-    height: 40px;
+    font-size: 0.75rem;
+    width: 100px;
+    height: 50px;
     padding: 3px 5px 0 6px;
   }
   
@@ -186,10 +190,11 @@ body {
   }
   
   .cards-grid {
-    grid-template: repeat(4, 1fr) / repeat(3, 100px);
+    grid-template: repeat(4, 1fr) / repeat(3, 110px);
+    row-gap: 10px;
   }
 
   .card-img {
-    width: 90px;
+    width: 100px;
   }
 }
