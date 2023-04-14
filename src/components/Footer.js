@@ -7,7 +7,7 @@ const Footer = () => {
             <p className="footer-text">Made by CMP</p>
             <a 
             className="footer-link" 
-            href="https://github.com/doozles411"
+            href="https://github.com/cynthem"
             target="_blank"
             rel="noopener noreferrer"
             >
